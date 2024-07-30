@@ -77,16 +77,7 @@ def run_turing_machine(
 
             if instructions == 'R':
                 position+=1
-            print(instructions)
-        #print(json.dumps(history))
         reading = ruban[position+offset]
 
-    print(memory.strip())
     return memory.strip(), execution_history, True
-    #return memory.strip(), execution_history, True
-
-
-          # Implement the function
-    
-
 
